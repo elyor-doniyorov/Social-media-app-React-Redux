@@ -1,10 +1,10 @@
 /* eslint-disable */
 import React from 'react';
+import s from './Header.module.css';
 
 const Header = () => (
-  <header className="header">
-    {/* <img src="https://www.freepnglogos.com/uploads/logo-tokopedia-png/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" alt="logo" /> */}
-    <h3 className="main-title">Gashtak Vibes</h3>
+  <header className={s.header}>
+    <h3 className={s.mainTitle}>Gashtak Vibes</h3>
   </header>
 );
 

@@ -1,0 +1,15 @@
+.header {
+  grid-area: header;
+  background-color: #6f42c1;
+}
+
+.header img {
+  width: 10%;
+  margin: auto;
+}
+
+.mainTitle {
+  color: beige;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+}

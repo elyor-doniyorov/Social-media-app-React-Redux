@@ -5,7 +5,7 @@
 
 .main-title {
   color: beige;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 10px;
 }
 
@@ -18,9 +18,9 @@
   display: grid;
   margin: 0 auto;
   width: 1200px;
-  grid-template-areas: 
-  "header header"
-  "nav content";
+  grid-template-areas:
+    "header header"
+    "nav content";
   grid-template-columns: 2fr 10fr;
   grid-template-rows: 60px 1fr;
 }
@@ -33,7 +33,7 @@
 }
 
 .nav a {
-  color:floralwhite;
+  color: floralwhite;
   text-decoration: none;
 }
 

@@ -11,11 +11,11 @@ const MyPosts = () => (
       <button>Add post</button>
     </div>
     <div className={s.posts}>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post message="Why nobody loves me?" likeCount="430 like" />
+      <Post message="Hi everyone!" likeCount="430 like" />
+      <Post message="I am Elyor" likeCount="430 like" />
+      <Post message="I want to earn $1000 per month" likeCount="530 like" />
+      <Post message="How to improve logical thinking?" likeCount="460 like" />
     </div>
   </div>
 );

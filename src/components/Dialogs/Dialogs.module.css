@@ -1,3 +1,8 @@
-.content {
-  text-align: center;
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_items {
+  padding: 10px;
 }

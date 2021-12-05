@@ -1,8 +1,7 @@
-.item {
-  color: aliceblue;
+.myPosts {
+  padding: 10px;
 }
 
-.item img {
-  border-radius: 50%;
-  width: 50px;
+.posts {
+  margin-top: 10px;
 }

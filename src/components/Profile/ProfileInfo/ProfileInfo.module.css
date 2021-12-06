@@ -1,0 +1,13 @@
+.profileInfo {
+  box-sizing: border-box;
+}
+
+.profileImage {
+  width: 100%;
+
+  /* height: 400px; */
+}
+
+.profileDescription {
+  padding: 10px;
+}

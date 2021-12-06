@@ -10,6 +10,6 @@
   text-decoration: none;
 }
 
-.item .activeLink {
+.activeLink {
   color: gold;
 }

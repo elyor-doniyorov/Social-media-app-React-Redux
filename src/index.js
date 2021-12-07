@@ -11,9 +11,26 @@ const posts = [
   { id: 5, message: 'How to improve logical thinking?', likesCount: 9 },
 ];
 
+const dialogs = [
+  { id: 1, name: 'Elyor' },
+  { id: 2, name: 'Avazbek' },
+  { id: 3, name: 'Dildora' },
+  { id: 4, name: 'Bahrom' },
+  { id: 5, name: 'Abbos' },
+  { id: 6, name: 'Farhod' },
+];
+
+const messages = [
+  { id: 1, message: 'HI' },
+  { id: 2, message: 'How are you?' },
+  { id: 3, message: 'What about you?' },
+  { id: 4, message: 'Yeah?' },
+  { id: 5, message: 'Yo' },
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App posts={posts} />
+    <App posts={posts} dialogs={dialogs} messages={messages} />
   </React.StrictMode>,
   document.getElementById('root'),
 );

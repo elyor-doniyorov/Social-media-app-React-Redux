@@ -1,8 +1,8 @@
 /* eslint-disable */
 import React from 'react';
 import s from './Dialogs.module.css';
-import DialogItem from './DialogItem';
-import Message from './Message';
+import DialogItem from './DialogItem/DialogItem';
+import Message from './Message/Message';
 
 const Dialogs = () => {
   let dialogs = [

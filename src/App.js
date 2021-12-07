@@ -11,6 +11,7 @@ import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
 
 const App = (props) => {
+  debugger;
   return (
     <BrowserRouter>
       <div className="app-wrapper">
@@ -18,8 +19,8 @@ const App = (props) => {
         <Navbar />
         <div className="app-wrapper-content">
           <Routes>
-            <Route path="/profile" element={<Profile posts={props.state.posts} />} />
-            <Route exact path="/dialogs" element={<Dialogs dialogs={props.state.dialogs} messages={props.state.messages} />} />
+            <Route path="/profile" element={<Profile state={props.state.profilePage} />} />
+            <Route exact path="/dialogs" element={<Dialogs state={props.state.dialogsPage} />} />
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
             <Route path="/settings" element={<Settings />} />

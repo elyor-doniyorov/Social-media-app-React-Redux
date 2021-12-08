@@ -27,7 +27,7 @@ const state = {
     ],
   },
 
-  friendsPage: [
+  sidebar: [
     {
       id: 1,
       name: 'Mike',

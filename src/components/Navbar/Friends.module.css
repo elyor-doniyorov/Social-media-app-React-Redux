@@ -1,0 +1,17 @@
+.friends {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* padding: 10px;
+  margin-top: 5px; */
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend img {
+  border-radius: 50%;
+  height: 40px;
+}

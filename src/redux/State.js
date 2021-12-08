@@ -26,6 +26,24 @@ const state = {
       { id: 5, message: 'Yo' },
     ],
   },
+
+  friendsPage: [
+    {
+      id: 1,
+      name: 'Mike',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9iSSdnDdhfRK-H8o4M0XfQxagijAQT83AQ&usqp=CAU',
+    },
+    {
+      id: 2,
+      name: 'John',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9iSSdnDdhfRK-H8o4M0XfQxagijAQT83AQ&usqp=CAU',
+    },
+    {
+      id: 3,
+      name: 'Andy',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9iSSdnDdhfRK-H8o4M0XfQxagijAQT83AQ&usqp=CAU',
+    },
+  ],
 };
 
 export default state;

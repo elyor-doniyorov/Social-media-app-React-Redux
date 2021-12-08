@@ -10,6 +10,18 @@
   text-decoration: none;
 }
 
+.item2 a {
+  color: floralwhite;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
 .activeLink {
   color: gold;
+}
+
+.centered_title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
 }
